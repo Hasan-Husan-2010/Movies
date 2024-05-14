@@ -4,6 +4,9 @@
 span, a, label{
     display: inline-block;
 }
+body {
+    background-color: black;
+}
 .box {
     padding: 30px;
     width:100%;
@@ -51,7 +54,8 @@ span, a, label{
     font-size: 20px;
     color: white;
     border: 3px solid white;
-    box-shadow:  0 0 10px 4px white, inset 0 0 10px 4px rgba(30, 143, 255, 0.839);
+    box-shadow:  0 0 10px 4px black, inset 0 0 10px 4px rgba(30, 143, 255, 0.839);
+    outline: none;
 }
 .btn {
     background-color: #444;
