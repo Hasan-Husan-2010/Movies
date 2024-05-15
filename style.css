@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: cursive;
 }
 span, a, label{
     display: inline-block;
@@ -84,6 +85,13 @@ body {
     color: white;
     box-shadow: 0 0 7px 10px dodgerblue,
     inset 0 0 11px 11px rgba(30, 143, 255, 0.582) ;
+}
+.aa {
+    font-size: 20px;
+    position: fixed;
+    color: red;
+    right: 10px;
+    top: 10px;
 }
 @media(max-width:1200px){
     .div {
